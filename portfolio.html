@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url(./Assets/Images/seattle-skyline-at-night-allan-nieva.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: 100% 100%;
+        }
+    </style>
 </head>
 <body>
     <div style="background-color: rgb(141, 140, 130);"></div>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand  bg-dark text-white" href="#">Daoyuan Guo</a>
+            <a class="navbar-brand  bg-dark text-white" href="index.html">Daoyuan Guo</a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,41 +42,52 @@
     </nav>
     <!--Portfolio-->
     <div id="Portfolio">
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-9">
-                    <div class="card bg-white">
-                        <h2 class="card-title">Portfolio</h2> 
-                        <div class="container">
-                            <hr>
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-12">
-                                    <img src="./Assets/Images/m.jpg" width="350" height="350" class="rounded top img-fluid port-image m-1">
-                                </div>
-                                <div class="col-lg-6 col-sm-12">
-                                    <img src="./Assets/Images/m.jpg" width="350" height="350" class="rounded top img-fluid port-image m-1">
-                                </div>
-                            </div>
+        <div class="container">
+            <hr />
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="./Assets/Images/Moodvie.PNG" alt="Moodvie app">
+                    <div class="card-body">
+                        <h5 class="card-title">Moodvie Application Project</h5>
+                        <p class="card-text">This is a movie generating application based on the user's mood. This
+                            was a group project and technologies I contributed were HTML, CSS, and use of the Bulma
+                            CSS framekwork. The application also uses the TMDB API, the Giphy API, as well as
+                            jQuery.
+                        </p>
+                        <a href="https://github.com/lincguo93/Moodvie" title="GitHub"><i id="githubicon"
+                                class="fab fa-github-square" style="font-size:55px"></i></a>
 
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-12">
-                                    <img src="./Assets/Images/m.jpg" width="350" height="350" class="rounded top img-fluid port-image m-1">
-                                </div>
-                                <div class="col-lg-6 col-sm-12">
-                                    <img src="./Assets/Images/m.jpg" width="350" height="350" class="rounded top img-fluid port-image m-1">
-                                </div>
-                            </div>
+                    </div>
 
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-12">
-                                    <img src="./Assets/Images/m.jpg" width="350" height="350" class="rounded top img-fluid port-image m-1">
-                                </div>
-                                
-                            </div>
-                        </div>
+                </div>
+                <div class="card">
+                    <a href="https://github.com/lincguo93/Work-Day-Scheduler"><img class="card-img-top" src="./Assets/Images/workday.gif" alt="Work Day Schedule"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Work Day Scheduler</h5>
+                        <p class="card-text">This is a calendar application that allows a user to save an event for
+                            each hour of the day. Technologies used in this application were HTML, CSS and jQuery.
+                        </p>
+                        <a href="https://github.com/lincguo93/Work-Day-Scheduler" title="GitHub"><i id="githubicon" class="fab fa-github-square" style="font-size:55px"></i></a>
+
                     </div>
                 </div>
+                <div class="card">
+                    <a href="https://github.com/lincguo93/Weather-Dashboard"> <img class="card-img-top" src="./Assets/Images/WeatherDashboard.png" alt="Weather Dashboard"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <p class="card-text">This project is a weather dashboard. The application populates the
+                            searched city for current city weather as well as a five day forecast. Technologies used
+                            were HTML, CSS, jQuery, OpenWeather API
+                        </p>
+                        <a href="https://github.com/lincguo93/Weather-Dashboard" title="GitHub"><i id="githubicon" class="fab fa-github-square" style="font-size:55px"></i></a>
+
+                    </div>
+                </div>
+                
+
+
             </div>
+            <br> 
         </div>
     </div>
     
