@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <style>
         body {
             background-image: url(./Assets/Images/seattle-skyline-at-night-allan-nieva.jpg);
             background-repeat: no-repeat;
-            background-attachment: fixed; 
+            background-attachment: fixed;
             background-size: 100% 100%;
         }
     </style>
 </head>
+
 <body>
     <div style="background-color: rgb(141, 140, 130);"></div>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand  bg-dark text-white" href="index.html">Daoyuan Guo</a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="navbar" class="navbar-collapse collapse" >
+            <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav ml-auto navbar-right">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">About</a>
-                      </li>
-                      <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
-                      </li>
-                      <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
-                      </li>
-    
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -48,7 +53,7 @@
                 <div class="card">
                     <img class="card-img-top" src="./Assets/Images/Moodvie.PNG" alt="Moodvie app">
                     <div class="card-body">
-                        <h5 class="card-title">Moodvie Application Project</h5>
+                        <h5 class="card-title">Moodvie</h5>
                         <p class="card-text">This is a movie generating application based on the user's mood. This
                             was a group project and technologies I contributed were HTML, CSS, and use of the Bulma
                             CSS framekwork. The application also uses the TMDB API, the Giphy API, as well as
@@ -61,36 +66,54 @@
 
                 </div>
                 <div class="card">
-                    <a href="https://github.com/lincguo93/Work-Day-Scheduler"><img class="card-img-top" src="./Assets/Images/workday.gif" alt="Work Day Schedule"></a>
+                    <img class="card-img-top" src="./Assets/Images/habitRabbitGif.gif" alt="habitRabbit app">
+                    <div class="card-body">
+                        <h5 class="card-title">HabitRabbit</h5>
+                        <p class="card-text">Habit-Rabbit is a habit tracking app that offers the ability to add and track 
+                            daily habits in order to promote self awareness. Our goal is to provide details that enable 
+                            the user to adjust their habits according to their life goals.
+                        </p>
+                        <a href="https://github.com/Kfields91/Habit-Rabbit" title="GitHub"><i id="githubicon"
+                                class="fab fa-github-square" style="font-size:55px"></i></a>
+
+                    </div>
+
+                </div>
+                <div class="card">
+                    <a href="https://github.com/lincguo93/Work-Day-Scheduler"><img class="card-img-top"
+                            src="./Assets/Images/workday.gif" alt="Work Day Schedule"></a>
                     <div class="card-body">
                         <h5 class="card-title">Work Day Scheduler</h5>
                         <p class="card-text">This is a calendar application that allows a user to save an event for
                             each hour of the day. Technologies used in this application were HTML, CSS and jQuery.
                         </p>
-                        <a href="https://github.com/lincguo93/Work-Day-Scheduler" title="GitHub"><i id="githubicon" class="fab fa-github-square" style="font-size:55px"></i></a>
+                        <a href="https://github.com/lincguo93/Work-Day-Scheduler" title="GitHub"><i id="githubicon"
+                                class="fab fa-github-square" style="font-size:55px"></i></a>
 
                     </div>
                 </div>
                 <div class="card">
-                    <a href="https://github.com/lincguo93/Weather-Dashboard"> <img class="card-img-top" src="./Assets/Images/WeatherDashboard.png" alt="Weather Dashboard"></a>
+                    <a href="https://github.com/lincguo93/Weather-Dashboard"> <img class="card-img-top"
+                            src="./Assets/Images/WeatherDashboard.png" alt="Weather Dashboard"></a>
                     <div class="card-body">
                         <h5 class="card-title">Weather Dashboard</h5>
                         <p class="card-text">This project is a weather dashboard. The application populates the
                             searched city for current city weather as well as a five day forecast. Technologies used
                             were HTML, CSS, jQuery, OpenWeather API
                         </p>
-                        <a href="https://github.com/lincguo93/Weather-Dashboard" title="GitHub"><i id="githubicon" class="fab fa-github-square" style="font-size:55px"></i></a>
+                        <a href="https://github.com/lincguo93/Weather-Dashboard" title="GitHub"><i id="githubicon"
+                                class="fab fa-github-square" style="font-size:55px"></i></a>
 
                     </div>
                 </div>
-                
+
 
 
             </div>
-            <br> 
+            <br>
         </div>
     </div>
-    
+
 
 
 </body>
@@ -99,7 +122,14 @@
         &copy; Copyright 2020 Daoyuan Guo
     </div>
 </footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
 </html>
