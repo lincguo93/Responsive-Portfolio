@@ -1,5 +1,5 @@
 # hw2 Responsive Portfolio
-Responsive Portfolio is home work 2 for using bootstrap.
+Responsive Portfolio is home work 2 for using bootstrap, but it keeps envolving!
 
 ## Table of Contents
 * Description
